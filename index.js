@@ -8,7 +8,6 @@ require("dotenv").config({ path: ".env" });
 const itemRouter = require('./routes/Item');
 const Item = require('./models/Item');
 
-
 app.use(cors());
 app.use(express.json());
 
